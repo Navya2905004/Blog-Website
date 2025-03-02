@@ -1,0 +1,60 @@
+body
+{
+    background-color: rgba(0, 0, 0, 0.684);
+}
+
+.loginsignup
+{
+    display: flex;
+    flex-direction: column;
+    width:500px;
+    height: 400px;
+    background-color: rgb(141, 202, 238);
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    border-radius: 5px;
+    border: 10px solid white;
+    
+}
+
+.fields
+{
+    width:150px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.outerloginsignup
+{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fields:hover
+{
+    background-color: rgba(62, 8, 138, 0.782);
+}
+
+label
+{
+    font-weight: 600;
+}
+
+input
+{
+    width:250px;
+    height:30px;
+    border-radius: 5px;
+}
+
+.Password-Field
+{
+    display: flex;
+    gap:10px;
+}
